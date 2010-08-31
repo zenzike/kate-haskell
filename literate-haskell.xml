@@ -31,7 +31,7 @@
   </contexts>
   <itemDatas>
     <itemData name="Text"             defStyleNum="dsNormal" spellChecking="true" />
-    <itemData name="BirdTrack"        defStyleNum="dsSpecial"  spellChecking="false" />
+    <itemData name="BirdTrack"        defStyleNum="dsOthers"  spellChecking="false" />
     <itemData name="Comment"          defStyleNum="dsComment" />
   </itemDatas>
   </highlighting>
