@@ -23,3 +23,13 @@ To install these files simply copy the xml files into the kate configuration dir
     cd kate-haskell
     cp haskell.xml ~/.kde/share/apps/katepart/syntax/
     cp literate-haskell.xml ~/.kde/share/apps/katepart/syntax/
+
+Testing
+-------
+
+These files should be tested against the 
+[Kate language DTD](http://gitorious.org/kate/kate/blobs/master/part/syntax/data/language.dtd)
+before pushing
+[upstream](mailto:kwrite-devel@kde.org):
+
+    xmllint --noout --dtdvalid language.dtd haskell.xml literate-haskell.xml
